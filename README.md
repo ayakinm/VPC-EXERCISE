@@ -63,7 +63,7 @@ The focus of this exercise is purely on core networking infrastructure, security
 ## 📝 Short Report
 
 ### What Worked?
-The deployment of subnets, internet gateway attachment, and routing configurations went smoothly. Setting up explicit security group references (referencing other security groups instead of raw IPs) successfully established strict tier isolation.
+The deployment of subnets, internet gateway attachment, and routing configurations went smoothly. Setting up explicit security group references.
 
 ### What Was the Hardest Part?
 The hardest part for me was knowing how to SSH into the different servers because I was getting Permission denied (publickey) errors at first. Figuring out how to properly manage the key pair permissions (chmod 400), jumping through the bastion host, and making sure the private key was correctly referenced on the intermediate servers took some troubleshooting to get right.
